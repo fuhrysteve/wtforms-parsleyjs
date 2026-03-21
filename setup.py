@@ -15,34 +15,32 @@ For more information consult the README.md in the Github repository at
 https://github.com/fuhrysteve/wtforms-parsleyjs
 
 """
+
 from setuptools import setup
 
 setup(
-    name='WTForms-ParsleyJS',
-    version='2.0.1',
-    url='https://github.com/fuhrysteve/wtforms-parsleyjs',
-    download_url='https://github.com/fuhrysteve/wtforms-parsleyjs/tarball/2.0.1',
-    license='MIT',
-    author='Johannes Gehrs',
-    author_email='jgehrs@gmail.com',
-    description='Generate client side, parsley.js validation attributes automatically '
-                'from WTForms server side validators.',
+    name="WTForms-ParsleyJS",
+    version="2.0.1",
+    url="https://github.com/fuhrysteve/wtforms-parsleyjs",
+    download_url="https://github.com/fuhrysteve/wtforms-parsleyjs/tarball/2.0.1",
+    license="MIT",
+    author="Johannes Gehrs",
+    author_email="jgehrs@gmail.com",
+    description="Generate client side, parsley.js validation attributes automatically "
+    "from WTForms server side validators.",
     long_description=__doc__,
-    py_modules = ['run_sample'],
-    packages=['wtformsparsleyjs', 'wtformsparsleyjs.sample'],
-    platforms='any',
-    install_requires=[
-        'WTForms>=1.0.5'
-    ],
+    py_modules=["run_sample"],
+    packages=["wtformsparsleyjs", "wtformsparsleyjs.sample"],
+    platforms="any",
+    install_requires=["WTForms>=3"],
     classifiers=[
-        'Development Status :: 4 - Beta',
-        'Environment :: Web Environment',
-        'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
-        'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
-        'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
-        'Topic :: Software Development :: Libraries :: Python Modules'
-    ]
+        "Development Status :: 4 - Beta",
+        "Environment :: Web Environment",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python",
+        "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+    ],
 )
