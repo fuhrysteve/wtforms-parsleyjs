@@ -12,7 +12,7 @@ This library will generate the necesssary HTML attributes from your WTForms vali
 
 ## Sample
 
-[Check out the sample here](http://vast-plains-1931.herokuapp.com/parsley_testform). You can also run the sample yourself by calling `run_sample.py` if you have flask installed.
+[Check out the sample here](http://fuhrysteve.github.io/wtforms-parsleyjs/). You can also run the sample yourself by calling `run_sample.py` if you have flask installed.
 
 ## Installation
 
